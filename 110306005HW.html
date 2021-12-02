@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#first{
+		background-color:lemonchiffon;
+		color: royalblue;
+		font-weight: bolder;
+		padding: 40px;
+	}
+	.second{
+		background-color: lavenderblush;
+		font-weight: bolder;
+	}
+	.third{
+		background-color: lavender;
+		font-weight: bolder;
+	}
+	.extra third{
+		color:inherit;
+	}
+	h3 em {text-decoration: underline;}
+	li em {text-decoration: wavy underline;}
+	</style>
+</head>
+<body>
+	<form method="post">
+	<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’></table>
+	<table border="1" width="75%">
+		<thead>
+			<tr>
+				<th colspan="3" id="first">
+					About 110306005
+				</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td rowspan="3" class="second">
+					<img src="S__9420805.jpg" width="200" height="200" alt="kitten">
+				</td>
+				<td colspan="2" class ="second">
+					
+					<label>Name:
+						<input type="text" name="name">
+					</label></p>
+					<label>Gender:
+					 	<input type="radio" name="gender">Male
+					 	<input type="radio" name="gender">Female
+					 	<input type="radio" name="gender">Other
+					</label></p>
+				</td>
+			</tr>
+
+			<tr>	
+				<td class="second">
+					<label>County:</label>
+					<select name="County">
+						<option>Taipei</option>
+						<option>Taizhong</option>
+						<option>Taoyuan</option>
+						<option>Tainan</option>
+					</select>
+				</td></p>
+				<td class="second">
+					<label>birthday</label>
+						<input type="date" name="date">
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" class="second">
+					<label>Email:</label>
+					<input type="text" name="Email">
+				</td>
+			</tr>
+
+			<tr>
+				<td class="third">
+					<label>Hobby:</label>
+				</td>
+				<td colspan="2" class="third">
+					<input type="checkbox" name="Hobby">Movie
+					<input type="checkbox" name="Hobby">Reading
+					<input type="checkbox" name="Hobby">Listeing to music
+					<input type="checkbox" name="Hobby">Badminton
+					<input type="checkbox" name="Hobby">Swimming
+				</td></p>	
+			</tr>
+
+			<tr>
+				<td class="third">
+					<label>skill</label>
+				</td>
+				<td colspan="2" class="third">
+					<input type="checkbox" name="skill">JAVA
+					<input type="checkbox" name="skill">HTML
+					<input type="checkbox" name="skill">Python
+					<input type="checkbox" name="skill">Microsoft Office
+				</td>
+			</tr>
+
+			<tr>
+				<td class="third">
+					<label >Say somthing:</label>
+				</td>
+				<td colspan="2" class="third">
+					<input type="text" name="comment">
+			</tr>
+
+			<tr>
+				<td colspan="3" class="third">
+					<input type="submit" name="提交">
+					<input type="reset" name="重設">
+				</td>
+			</tr>
+			
+		</tbody>
+	</form>
+	</table>
+</body>
+</html>
